@@ -80,6 +80,19 @@ body {
 }
 
 
+/* CUSTOMIZE THE ABOUT ME PANEL
+-------------------------------------------------- */
+.panel-aboutme .panel-body {
+  color:black;
+  padding-top:250px;
+  background:url(../img/about-me.jpg) no-repeat center -40px;
+  background-size: cover;
+}
+
+.panel-aboutme .panel-body blockquote {
+  background-color:rgba(255, 255, 255, 0.6);
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
