@@ -6,27 +6,38 @@ body {
   color: #5a5a5a;
 }
 
-
 /* --------- HEADER --------- */
 
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-  border-bottom: 1px solid;
+nav {
+  margin-left: 420px;
 }
 
-.myslider {
+nav ul li {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+nav ul li a {
+  color: black;
+}
+
+.my_slider {
   height: 500px;
   margin-bottom: 60px;
 }
-.carousel-caption {
+
+.carousel-inner {
   z-index: 10;
 }
+
 .carousel .item {
   height: 500px;
 }
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -34,33 +45,31 @@ body {
   min-width: 100%;
   height: 500px;
 }
-.carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-}
 
-/*
+
+
+
+/* --------- SECTION --------- 
  *
- *  Section
+ *
  *
  */
 
-/*
+/* --------- SECTION --------- 
  *
- *  Section
  *
- */
-
-/*
- *
- *  Section
  *
  */
 
-
- /*
+/* --------- SECTION --------- 
  *
- *  Footer
+ *
+ *
+ *//
+
+
+ /* --------- FOOTER --------- 
+ *
+ *
  *
  */
