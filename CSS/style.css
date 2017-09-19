@@ -13,6 +13,10 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
+a {
+    color: black;
+}
+
 /* --------- HEADER --------- */
 
 
@@ -68,8 +72,9 @@ div.col-xs-9 {
   box-shadow: none;  
 }
 
-.panel .panel-info {
-    border-color: goldenrod;
+.panel-info {
+    /*border-color: goldenrod;*/
+    border: none;
 }
 .panel-info > .panel-heading {
     color:black;
