@@ -60,6 +60,17 @@ div.col-xs-9 {
 
 
 
+/* --------- CATEGORIES PAGE : IMG RESPONSIVE --------- */
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+.thumbnail img  {
+  height: 90px;
+  width: 100%;
+}
+}
+
+
 /* CUSTOMIZE THE PANELS
 -------------------------------------------------- */
 h3.panel-title {
