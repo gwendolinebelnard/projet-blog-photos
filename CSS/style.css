@@ -4,10 +4,20 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
 }
 
 /* --------- HEADER --------- */
-
 
 
 nav ul li {
@@ -55,6 +65,35 @@ div.col-xs-9 {
 }
 
 
+/* CUSTOMIZE THE PANELS
+-------------------------------------------------- */
+.panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;  
+}
+
+.panel-info {
+    /*border-color: goldenrod;*/
+    border: none;
+}
+.panel-info > .panel-heading {
+    color:black;
+    background: none;
+    border: none;
+}
+
+/* CUSTOMIZE THE ABOUT ME PANEL
+-------------------------------------------------- */
+.panel-aboutme .panel-body {
+  color:black;
+  padding-top:250px;
+  background:url(../img/about-me.jpg) no-repeat center -40px;
+  background-size: cover;
+}
+
+.panel-aboutme .panel-body blockquote {
+  background-color:rgba(255, 255, 255, 0.6);
+}
 
 
 /* --------- SECTION --------- 
@@ -73,7 +112,7 @@ div.col-xs-9 {
  *
  *
  *
- *//
+ */
 
 
  /* --------- FOOTER --------- 
