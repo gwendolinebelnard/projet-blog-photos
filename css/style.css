@@ -1,0 +1,148 @@
+/* --------- GENERAL --------- */
+
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+}
+
+/* --------- HEADER --------- */
+
+header {
+    margin-bottom: 20px;
+        
+}
+nav ul li {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+nav ul li a {
+  color: black;
+  padding: 0 auto;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background-color: rgba(255,255,255,0.5);
+  text-decoration: underline;
+}
+
+h1 a:focus, h1 a:hover {
+   text-decoration: none;
+}
+  
+div.col-xs-9 {
+  margin-top: 23px;
+}
+
+.my_slider {
+  height: 500px;
+  margin-bottom: 60px;
+}
+
+.carousel-inner {
+  z-index: 10;
+}
+
+
+
+/* --------- CATEGORIES PAGE : IMG RESPONSIVE --------- */
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+.thumbnail img  {
+  height: 90px;
+  width: 100%;
+}
+}
+
+
+/* CUSTOMIZE THE PANELS
+-------------------------------------------------- */
+h3.panel-title {
+    font-size: 20px;
+    
+}
+
+.panel {
+  -webkit-box-shadow: none;
+  box-shadow: none;  
+}
+
+.panel-info {
+    /*border-color: goldenrod;*/
+    border: none;
+}
+.panel-info > .panel-heading {
+    color:black;
+    background: none;
+    border: none;
+}
+
+/* CUSTOMIZE THE ABOUT ME PANEL
+-------------------------------------------------- */
+.panel-aboutme .panel-body {
+  color:black;
+  padding-top:250px;
+  background:url(../img/about-me.jpg) no-repeat center -40px;
+  background-size: cover;
+}
+
+.panel-aboutme .panel-body blockquote {
+  background-color:rgba(255, 255, 255, 0.6);
+}
+
+
+/* --------- SECTION --------- 
+ *
+ *
+ *
+ */
+
+/* --------- SECTION --------- 
+ *
+ *
+ *
+ */
+
+/* --------- SECTION --------- 
+ *
+ *
+ *
+ */
+
+
+ /* --------- FOOTER --------- 
+ *
+ *
+ *
+ */
+ 
+ @media screen and (min-width: 640px)  {
+        .carousel .item {
+        height: 500px;
+      }
+
+      .carousel-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 500px;
+      }
+
+}
