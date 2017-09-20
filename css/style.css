@@ -19,7 +19,10 @@ a {
 
 /* --------- HEADER --------- */
 
-
+header {
+    margin-bottom: 20px;
+        
+}
 nav ul li {
   display: flex;
   justify-content: space-around;
@@ -38,6 +41,9 @@ nav ul li a {
   text-decoration: underline;
 }
 
+h1 a:focus, h1 a:hover {
+   text-decoration: none;
+}
   
 div.col-xs-9 {
   margin-top: 23px;
@@ -67,6 +73,11 @@ div.col-xs-9 {
 
 /* CUSTOMIZE THE PANELS
 -------------------------------------------------- */
+h3.panel-title {
+    font-size: 20px;
+    
+}
+
 .panel {
   -webkit-box-shadow: none;
   box-shadow: none;  
