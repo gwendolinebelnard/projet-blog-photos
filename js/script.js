@@ -1,1 +1,0 @@
-$("img".addClass"image-responsive")
