@@ -17,6 +17,11 @@ a {
     color: black;
 }
 
+.nav > li > a.active, .nav > li > a.active:focus, .nav > li > a.active:hover {
+    background-color:  #827da6 ;
+    color: white;
+}
+
 article {
      margin: 10px 0 20px ; 
 }
@@ -24,19 +29,19 @@ article {
 /* ---------- couleurs ----------------- */
 
 .dark_purple_bg {
-   background-color:  #827da6;
+   background-color:  #494e75;
     
 }
 .light_purple_bg {
-   background-color:  #494e75 ;
+   background-color:  #827da6 ;
 
 }
 .dark_purple {
-   color:  #827da6;
+   color: #494e75;
     
 }
 .light_purple {
-  color:  #494e75 ;
+  color:   #827da6 ;
 
 }
 /* --------- HEADER --------- */
@@ -129,12 +134,21 @@ h3.panel-title {
 }
 
 
-/* --------- SECTION --------- 
- *
- *
- *
- */
-
+/* --------- BUTTONS --------- */
+ 
+.btn-info, .btn-info:hover, input[type=submit], input[type=submit].light_purple_bg:hover {
+    border-color: white;
+}
+.btn-info.light_purple_bg:hover, input[type=submit].light_purple_bg:hover{
+    background-color:   #494e75 ;
+    
+}
+.badge {
+     background-color:   #827da6 ;
+}
+.badge:hover {
+     background-color:   #494e75 ;
+}
 /* --------- SECTION --------- 
  *
  *
