@@ -110,11 +110,33 @@ h3.panel-title {
 }
 
 
+/* --------- PAGE CATEGORIES --------- */
+
+.thumbnail p {
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.opacity {
+  opacity: 0.8;
+  max-width: 100%;
+}
+
+.opacity:hover {
+  background-color: #827da6;
+  opacity: 1;
+}
+
+
+
+
 /* --------- SECTION --------- 
  *
  *
  *
  */
+ 
 
 /* --------- SECTION --------- 
  *
