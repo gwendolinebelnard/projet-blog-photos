@@ -1,1 +1,4 @@
-$("img".addClass"image-responsive")
+$(function() {
+    $("img").addClass("img-responsive");
+});
+        

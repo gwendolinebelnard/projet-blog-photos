@@ -17,6 +17,9 @@ a {
     color: black;
 }
 
+article {
+     margin: 10px 0 20px ; 
+}
 /* --------- HEADER --------- */
 
 header {
@@ -60,7 +63,7 @@ div.col-xs-9 {
 
 
 
-/* --------- CATEGORIES PAGE : IMG RESPONSIVE --------- */
+/* --------- CATEGORIES PAGE : IMG RESPONSIVE --------- 
 
 @media screen and (min-width:769px) and (max-width:992px){
 
@@ -69,7 +72,7 @@ div.col-xs-9 {
   width: 100%;
 }
 }
-
+*/
 
 /* CUSTOMIZE THE PANELS
 -------------------------------------------------- */
@@ -107,11 +110,33 @@ h3.panel-title {
 }
 
 
+/* --------- PAGE CATEGORIES --------- */
+
+.thumbnail p {
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.opacity {
+  opacity: 0.8;
+  max-width: 100%;
+}
+
+.opacity:hover {
+  background-color: #827da6;
+  opacity: 1;
+}
+
+
+
+
 /* --------- SECTION --------- 
  *
  *
  *
  */
+ 
 
 /* --------- SECTION --------- 
  *
