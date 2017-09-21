@@ -11,6 +11,6 @@ $('document').ready(function() {
         $(this).css({'font-weight': '600'});
     });
     $('.article-structure').on('mouseenter', 'p', function() {
-        $(this).css({'color': '#494e75'});
+        $(this).css({'font-weight': '600'});
     });
 });
