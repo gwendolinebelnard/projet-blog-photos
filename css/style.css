@@ -134,6 +134,36 @@ h3.panel-title {
 }
 
 
+
+/* --------- PAGE CATEGORIES --------- */
+
+.thumbnail p {
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.opacity {
+  opacity: 0.8;
+  max-width: 100%;
+}
+
+.opacity:hover {
+  background-color: #827da6;
+  opacity: 1;
+}
+
+
+
+
+/* --------- SECTION --------- 
+ *
+ *
+ *
+ */
+ 
+
+
 /* --------- BUTTONS --------- */
  
 .btn-info, .btn-info:hover, input[type=submit], input[type=submit].light_purple_bg:hover {
@@ -149,6 +179,7 @@ h3.panel-title {
 .badge:hover {
      background-color:   #494e75 ;
 }
+
 /* --------- SECTION --------- 
  *
  *
