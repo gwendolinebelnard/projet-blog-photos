@@ -20,6 +20,25 @@ a {
 article {
      margin: 10px 0 20px ; 
 }
+
+/* ---------- couleurs ----------------- */
+
+.dark_purple_bg {
+   background-color:  #827da6;
+    
+}
+.light_purple_bg {
+   background-color:  #494e75 ;
+
+}
+.dark_purple {
+   color:  #827da6;
+    
+}
+.light_purple {
+  color:  #494e75 ;
+
+}
 /* --------- HEADER --------- */
 
 header {
