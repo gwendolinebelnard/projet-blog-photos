@@ -1,9 +1,12 @@
 $(function() {
     $("img").addClass("img-responsive");
-});
 
-
-$('document').ready(function() {
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
+    
+    
     $('.article-structure').on('mouseenter', 'h3', function() {
         $(this).css({'font-weight': '900'});
     });
@@ -11,6 +14,6 @@ $('document').ready(function() {
         $(this).css({'font-weight': '600'});
     });
     $('.article-structure').on('mouseenter', 'p', function() {
-        $(this).css({'color': '#494e75'});
+        $(this).css({'font-weight': '600'});
     });
 });
