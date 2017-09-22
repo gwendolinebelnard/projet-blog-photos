@@ -76,11 +76,11 @@ div.col-xs-9 {
   margin-top: 23px;
 }
 
-.my_slider {
+/*.my_slider {
   height: 500px;
   margin-bottom: 60px;
 }
-
+*/
 .carousel-inner {
   z-index: 10;
 }
@@ -180,11 +180,14 @@ h3.panel-title {
      background-color:   #494e75 ;
 }
 
-/* --------- SECTION --------- 
+/* --------- GALLERY  --------- 
  *
  *
  *
  */
+#gallery-page main .row {
+    margin-bottom: 20px;
+}
 
 /* --------- SECTION --------- 
  *
@@ -200,16 +203,36 @@ h3.panel-title {
  */
  
  @media screen and (min-width: 640px)  {
-        .carousel .item {
-        height: 500px;
-      }
+    
+   /* .carousel .item {
+      height: 480px;
+    }
 
-      .carousel-inner > .item > img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        height: 500px;
-      }
+    .carousel-inner > .item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }*/
+      
+    #bridges .carousel  .item,
+    #monuments-palaces .carousel .item,
+    #statues .carousel .item,
+    #others .carousel .item {
+            height: 370px;
+    }
+      
+      
+
+}
+@media (max-width: 768px) {
+
+  /*[class*="col-"] {
+      margin-bottom: 15px;
+  }
+  .carousel .item {
+      height: 350px;
+    }*/
 
 }
